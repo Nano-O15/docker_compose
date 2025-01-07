@@ -13,7 +13,7 @@ RUN npm install
 # Copier le reste des fichiers de l'application dans le conteneur
 COPY . .
 
-# Exposer le port 3000 pour accéder à l'application
+# Exposer le port 8000 pour accéder à l'application
 EXPOSE 8000
 
 # Commande pour démarrer l'application
